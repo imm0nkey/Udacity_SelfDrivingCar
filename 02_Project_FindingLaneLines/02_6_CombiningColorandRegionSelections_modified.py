@@ -3,30 +3,32 @@ import matplotlib.image as mpimg
 import numpy as np
 
 # Read in the image
-image = mpimg.imread('test.jpg')
+image = mpimg.imread('test_real.png', 1)
 
 # Grab the x and y sizes and make two copies of the image
 # With one copy we'll extract only the pixels that meet our selection,
 # then we'll paint those pixels red in the original image to see our selection
-# overlaid on the origional.
+# overlaid on the original.
 ysize = image.shape[0]
 xsize = image.shape[1]
 color_select = np.copy(image)
+region_select = np.copy(image)
 line_image = np.copy(image)
+print(color_select)
 
 # Define our color criteria
-red_threshold = 200
-green_threshold = 200
-blue_threshold = 200
+red_threshold = 155
+green_threshold = 155
+blue_threshold = 155
 rgb_threshold = [red_threshold, green_threshold, blue_threshold]
 
 # Define a triangle region of interest (Note: if you run this code,
 # Keep in mind the origin (x=0, y=0) is in the upper left in image processing
 # you'll find these are not sensible values!!
 # But you'll get a chance to play with them soon in a quiz;)
-left_bottom = [0, 539]
-right_bottom = [900, 539]
-apex = [475, 320]
+left_bottom = [0, 1079]
+right_bottom = [1920, 1079]
+apex = [960, 600]
 
 fit_left = np.polyfit((left_bottom[0], apex[0]), (left_bottom[1], apex[1]), 1)
 fit_right = np.polyfit((right_bottom[0], apex[0]), (right_bottom[1], apex[1]), 1)
@@ -42,12 +44,16 @@ region_thresholds = (YY > (XX*fit_left[0] + fit_left[1])) & (YY > (XX*fit_right[
                     (YY < (XX*fit_bottom[0] + fit_bottom[1]))
 
 # Mask color selection
-color_select[color_thresholds] = [0, 0, 0]
+color_select[color_thresholds] = [0, 0, 0, 255]
+# Color pixels red which are inside the region of interest
+region_select[region_thresholds] = [255, 0, 0, 255]
 # Find where image is both colored right and in the region
-line_image[~color_thresholds & region_thresholds] = [255, 0, 0]
+line_image[~color_thresholds & region_thresholds] = [255, 0, 0, 255]
 
 # Display our two output images
 plt.imshow(color_select)
+plt.show()
+plt.imshow(region_select)
 plt.show()
 plt.imshow(line_image)
 plt.show()
