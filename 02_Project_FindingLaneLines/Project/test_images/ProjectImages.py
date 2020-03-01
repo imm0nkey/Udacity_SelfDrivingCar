@@ -10,7 +10,8 @@ import cv2
 # image = mpimg.imread('solidYellowCurve.jpg')
 # image = mpimg.imread('solidYellowCurve2.jpg')
 # image = mpimg.imread('solidYellowLeft.jpg')
-image = mpimg.imread('whiteCarLaneSwitch.jpg')
+# image = mpimg.imread('whiteCarLaneSwitch.jpg')
+image = mpimg.imread("test_videos/solidWhiteRight/161.jpg")
 gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
 
 # Define a kernel size and apply Gaussian smoothing
@@ -21,6 +22,8 @@ blur_gray = cv2.GaussianBlur(gray, (kernel_size, kernel_size), 0)
 low_threshold = 50
 high_threshold = 150
 edges = cv2.Canny(blur_gray, low_threshold, high_threshold)
+plt.imshow(edges)
+plt.show()
 
 # Next we'll create a masked edges image using cv2.fillPoly()
 mask = np.zeros_like(edges)
