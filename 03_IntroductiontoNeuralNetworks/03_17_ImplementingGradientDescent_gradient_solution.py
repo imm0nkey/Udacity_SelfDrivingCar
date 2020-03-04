@@ -16,11 +16,11 @@ n_records, n_features = features.shape
 last_loss = None
 
 # Initialize weights
-weights = np.random.normal(scale=1 / n_eatures**.5, size=n_features)
+weights = np.random.normal(scale=1 / n_features**.5, size=n_features)
 
 # Neural Network hyperparameters
 epochs = 1000
-learnrate = 0.5
+learnrate = 0.05
 
 for e in range(epochs):
     del_w = np.zeros(weights.shape)
@@ -28,16 +28,21 @@ for e in range(epochs):
         # Loop through all records, x is the input, y is the target
 
         # TODO: Calculate the output
-        output = None
+        # Activation of the output unit
+        output = sigmoid(np.dot(x, weights))
 
         # TODO: Calculate the error
-        error = None
+        # The error, the target minus the network output
+        error = y - output
 
         # TODO: Calculate change in weights
-        del_w += 0
+        # The gradient descent step, the error times the gradient times the inputs
+        del_w += error * output * (1 - output) * x
 
     # TODO: Update weights
-    weights += 0
+    # Update the weights here. THe learning rate times the
+    # change in weights, divided by the number of records to average
+    weights += learnrate * del_w / n_records
 
     # printing out the mean square error on the training set
     if e % (epochs / 10) == 0:
@@ -52,6 +57,9 @@ for e in range(epochs):
 
 # Calculate accuracy on test data
 tes_out = sigmoid(np.dot(features_test, weights))
+print(tes_out)
 predictions = tes_out > 0.5
+print(predictions)
 accuracy = np.mean(predictions == targets_test)
+print(accuracy)
 print("Prediction accuracy: {:.3f}".format(accuracy))
