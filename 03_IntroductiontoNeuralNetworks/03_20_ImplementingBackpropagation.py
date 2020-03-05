@@ -29,7 +29,7 @@ for e in range(epochs):
         # Forward pass
         # TODO: Calculate the output
         hidden_input = np.dot(x, weights_input_hidden)
-        print('hidden_input: ', hidden_input)
+        # print('hidden_input: ', hidden_input)
         hidden_output = sigmoid(hidden_input)
         output = sigmoid(np.dot(hidden_output, weights_hidden_output))
 
@@ -41,15 +41,15 @@ for e in range(epochs):
         output_error = error * output * (1 - output)
 
         # TODO: Propagate errors to hidden layer
-        hidden_error = None
+        hidden_error = np.dot(output_error, weights_hidden_output) * hidden_output * (1 - hidden_output)
 
         # TODO: Update the change in weights
-        del_w_hidden_output += 0
-        del_w_input_hidden += 0
+        del_w_hidden_output += output_error * hidden_output
+        del_w_input_hidden += hidden_error * x[:, None]
 
     # TODO: Update weights
-    weights_input_hidden += 0
-    weights_hidden_output += 0
+    weights_input_hidden += learnrate * del_w_input_hidden / n_records
+    weights_hidden_output += learnrate * del_w_hidden_output / n_records
 
     # Printing out the mean square error on the training set
     if e % (epochs / 10) == 0:
