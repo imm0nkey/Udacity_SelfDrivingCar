@@ -38,10 +38,9 @@ def plot3d(pixels, colors_rgb, axis_title, axis_labels=list("RGB"), axis_limits=
 
 
 # Read a color image
-# img = cv2.imread("bbox-example-image.jpg")
-
-img_name = "bbox-example-image"
-img = cv2.imread(img_name + '.jpg')
+# img_name = "bbox-example-image"
+img_name = "scene_3"
+img = cv2.imread(img_name + '.png')
 
 # Select a small fraction of pixels to plot by sub-sampling it
 scale = max(img.shape[0], img.shape[1], 64) / 64  # at most 64 rows and columns
@@ -50,6 +49,7 @@ img_small = cv2.resize(img, (np.int(img.shape[1] / scale), np.int(img.shape[0] /
 # Convert sub-sampled image to desired color space(s)
 img_small_RGB = cv2.cvtColor(img_small, cv2.COLOR_BGR2RGB)  # OpenCV uses BGR, matplotlib likes RGB
 img_small_HSV = cv2.cvtColor(img_small, cv2.COLOR_BGR2HSV)
+img_small_LUV = cv2.cvtColor(img_small, cv2.COLOR_BGR2LUV)
 img_small_rgb = img_small_RGB / 255.  # scaled to [0, 1], only for plotting
 
 # Plot and Show
@@ -60,4 +60,8 @@ plt.show()
 
 plot3d(img_small_HSV, img_small_rgb, img_name + '_HSV', axis_labels=list("HSV"))
 plt.savefig(img_name + '_HSV')
+plt.show()
+
+plot3d(img_small_LUV, img_small_rgb, img_name + '_LUV', axis_labels=list("LUV"))
+plt.savefig(img_name + '_LUV')
 plt.show()
