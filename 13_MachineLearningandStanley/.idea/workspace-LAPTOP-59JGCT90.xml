@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8df5fe60-6002-4fee-b2c8-aba05d7e628e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../06_DeepNeuralNetworks/.idea/06_DeepNeuralNetworks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../06_DeepNeuralNetworks/.idea/06_DeepNeuralNetworks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_DeepNeuralNetworks/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06_DeepNeuralNetworks/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_DeepNeuralNetworks/06_11_DeepNeuralNetworkinTensorFlow.py" beforeDir="false" afterPath="$PROJECT_DIR$/../06_DeepNeuralNetworks/06_11_DeepNeuralNetworkinTensorFlow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/13_MachineLearningandStanley.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/13_MachineLearningandStanley.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JupyterTrust" id="38b27777-6b00-4738-8ac2-05db0cd96b1d" />
+  <component name="ProjectId" id="1ds31SprRBPbL7B3KukJgWnXJv1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../00_Work/92_Lane_Detection/deep_sort_yolov3" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.13_15_studentMain">
+    <configuration name="13_14_GaussianNBExample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="13_MachineLearningandStanley" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_14_GaussianNBExample.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="13_15_studentMain" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="13_MachineLearningandStanley" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_15_studentMain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prep_terrain_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="13_MachineLearningandStanley" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\yidin\OneDrive\01_Life\Udacity_SelfDrivingCarTerm1\13_MachineLearningandStanley\prep_terrain_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.13_15_studentMain" />
+        <item itemvalue="Python.13_14_GaussianNBExample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8df5fe60-6002-4fee-b2c8-aba05d7e628e" name="Default Changelist" comment="" />
+      <created>1593199757141</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593199757141</updated>
+      <workItem from="1593199758713" duration="2617000" />
+      <workItem from="1593392480789" duration="3101000" />
+      <workItem from="1593583097928" duration="9295000" />
+      <workItem from="1593681760389" duration="4516000" />
+      <workItem from="1593760953695" duration="3096000" />
+      <workItem from="1594349510532" duration="788000" />
+      <workItem from="1594361381151" duration="3582000" />
+      <workItem from="1594604332249" duration="169000" />
+      <workItem from="1602667944567" duration="170000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1602668112232">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="805" y="311" key="FileChooserDialogImpl/-3840.7.1536.844/0.0.2048.1112@0.0.2048.1112" timestamp="1602668112232" />
+    <state width="1605" height="403" key="GridCell.Tab.0.bottom" timestamp="1594529858081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="979" height="403" key="GridCell.Tab.0.bottom/-1920.-320.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1594363902214" />
+    <state width="1605" height="403" key="GridCell.Tab.0.bottom/1920.11.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594529858081" />
+    <state width="1605" height="403" key="GridCell.Tab.0.center" timestamp="1594529858081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="979" height="403" key="GridCell.Tab.0.center/-1920.-320.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1594363902214" />
+    <state width="1605" height="403" key="GridCell.Tab.0.center/1920.11.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594529858081" />
+    <state width="1605" height="403" key="GridCell.Tab.0.left" timestamp="1594529858080">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="979" height="403" key="GridCell.Tab.0.left/-1920.-320.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1594363902214" />
+    <state width="1605" height="403" key="GridCell.Tab.0.left/1920.11.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594529858080" />
+    <state width="1605" height="403" key="GridCell.Tab.0.right" timestamp="1594529858081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="979" height="403" key="GridCell.Tab.0.right/-1920.-320.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1594363902214" />
+    <state width="1605" height="403" key="GridCell.Tab.0.right/1920.11.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594529858081" />
+    <state width="1605" height="403" key="GridCell.Tab.1.bottom" timestamp="1594529858081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="979" height="403" key="GridCell.Tab.1.bottom/-1920.-320.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1594363907219" />
+    <state width="1605" height="403" key="GridCell.Tab.1.bottom/1920.11.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594529858081" />
+    <state width="1605" height="403" key="GridCell.Tab.1.center" timestamp="1594529858081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="979" height="403" key="GridCell.Tab.1.center/-1920.-320.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1594363907218" />
+    <state width="1605" height="403" key="GridCell.Tab.1.center/1920.11.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594529858081" />
+    <state width="1605" height="403" key="GridCell.Tab.1.left" timestamp="1594529858081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="979" height="403" key="GridCell.Tab.1.left/-1920.-320.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1594363907218" />
+    <state width="1605" height="403" key="GridCell.Tab.1.left/1920.11.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594529858081" />
+    <state width="1605" height="403" key="GridCell.Tab.1.right" timestamp="1594529858081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="979" height="403" key="GridCell.Tab.1.right/-1920.-320.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1594363907218" />
+    <state width="1605" height="403" key="GridCell.Tab.1.right/1920.11.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594529858081" />
+    <state x="533" y="201" key="SettingsEditor" timestamp="1602668012863">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="533" y="201" key="SettingsEditor/-3840.7.1536.844/0.0.2048.1112@0.0.2048.1112" timestamp="1602668012863" />
+    <state x="1198" y="248" width="672" height="678" key="search.everywhere.popup" timestamp="1594362388634">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="1198" y="248" width="672" height="678" key="search.everywhere.popup/-1920.-320.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1594362388634" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/class_vis.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/13_MachineLearningandStanley$13_15_prep_terrain_data.coverage" NAME="13_15_prep_terrain_data Coverage Results" MODIFIED="1593590509337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/13_MachineLearningandStanley$13_14_GaussianNBExample.coverage" NAME="13_14_GaussianNBExample Coverage Results" MODIFIED="1593588041298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/13_MachineLearningandStanley$13_15_studentMain.coverage" NAME="13_15_studentMain Coverage Results" MODIFIED="1594363901650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
