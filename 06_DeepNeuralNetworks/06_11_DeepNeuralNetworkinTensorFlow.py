@@ -46,7 +46,7 @@ x_flat = tf.reshape(x, [-1, n_input])
 ### The MNIST data is made up of 28px by 28px images with a single channel.
 ### The tf.reshape() function above reshapes the 28px by 28px matrices in x into row vectors of 784px.
 
-# Multilayer Preceptron
+# Multilayer Perceptron
 # Hidden layer with RELU activation
 layer_1 = tf.add(tf.matmul(x_flat, weights['hidden_layer']), biases['hidden_layer'])
 layer_1 = tf.nn.relu(layer_1)
