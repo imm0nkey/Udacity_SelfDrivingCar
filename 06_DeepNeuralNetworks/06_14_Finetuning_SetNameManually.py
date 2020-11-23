@@ -1,13 +1,12 @@
 import tensorflow as tf
 
-# Remove the previous weights and bias
 tf.reset_default_graph()
 
 save_file = 'model.ckpt'
 
 # Two Tensor Variables: weights and bias
-weights = tf.Variable(tf.truncated_normal([2, 3]))
-bias = tf.Variable(tf.truncated_normal([3]))
+weights = tf.Variable(tf.truncated_normal([2, 3]), name='weights_0')
+bias = tf.Variable(tf.truncated_normal([3]), name='bias_0')
 
 saver = tf.train.Saver()
 
@@ -23,8 +22,8 @@ with tf.Session() as sess:
 tf.reset_default_graph()
 
 # Two Variables: weights and bias
-bias = tf.Variable(tf.truncated_normal([3]))
-weights = tf.Variable(tf.truncated_normal([2, 3]))
+bias = tf.Variable(tf.truncated_normal([3]), name='bias_0')
+weights = tf.Variable(tf.truncated_normal([2, 3]), name='weights_0')
 
 saver = tf.train.Saver()
 
@@ -33,5 +32,7 @@ print('Load Weights: {}'.format(weights.name))
 print('Load Bias: {}'.format(bias.name))
 
 with tf.Session() as sess:
-    # Load the weights and bias - ERROR
+    # Load the weights and bias - No Error
     saver.restore(sess, save_file)
+
+print('Loaded Weights and Bias successfully.')
